@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container" id="main-container">
         <div class="grid-container">
             <div class="grid-item grid-item-one" id="one" onclick="onBoxSelect('one')">
             </div>
@@ -27,8 +27,9 @@
         </div>
     </div>
     <div>
-        <h3> <img src="./images/cross_ico.svg" width="20" height="20" alt="" srcset=""> <span id="cross-icon" class="cross-count">2</span></h3>
-        <h3><img src="./images/black_circle.svg" width="20" height="20" alt="" srcset=""><span id="circle-icon" class="circle-count">2</span></h3>
+        <h3> <img src="./images/cross_ico.svg" width="20" height="20" alt="" srcset=""> <span id="cross-icon" class="cross-count"></span></h3>
+        <h3><img src="./images/black_circle.svg" width="20" height="20" alt="" srcset=""><span id="circle-icon" class="circle-count"></span></h3>
+        <h2 id="result"></h2>
     </div>
     <script src="main.js"></script>
 </body>
