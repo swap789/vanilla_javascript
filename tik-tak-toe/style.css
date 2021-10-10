@@ -1,0 +1,72 @@
+.main-container {
+    margin: auto;
+    position: absolute;
+    top:20%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 40% 40% 40%; */
+    width: 30%;
+    margin: auto;
+}
+.grid-item {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    width: 200px; 
+    height: 100px; 
+    text-align: center;
+}
+.grid-item-one {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-two {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-three {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-four {
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-five {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-six {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-seven {
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-eight {
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+.grid-item-nine {
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.cross-count {
+    margin-left: 10px;
+    top: 18px;
+    position: absolute;
+}
+
+.circle-count {
+    margin-left: 10px;
+    top: 59px;
+    position: absolute;
+}
