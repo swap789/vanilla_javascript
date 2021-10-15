@@ -1,0 +1,29 @@
+.main-container {
+    width: 450px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 7px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    background: purple;
+    color: white ;
+    
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
